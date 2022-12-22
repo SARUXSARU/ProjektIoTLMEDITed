@@ -1,0 +1,38 @@
+{
+    "name": "AsA-lmuras",
+    "startFile": "Transformation.asaql",
+    "configurations": [
+        {
+            "filePath": "JobConfig.json",
+            "subType": "JobConfig"
+        },
+        {
+            "filePath": "Outputs/asa-count-perc.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-errors.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-good-perc-permach.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-lmuras-good.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-out-lmuras.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-temp-avg.json",
+            "subType": "Output"
+        },
+        {
+            "filePath": "Outputs/asa-temperature.json",
+            "subType": "Output"
+        }
+    ]
+}

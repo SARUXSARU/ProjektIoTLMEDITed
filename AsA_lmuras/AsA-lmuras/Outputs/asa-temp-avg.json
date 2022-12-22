@@ -1,0 +1,27 @@
+{
+    "Name": "asa-temp-avg",
+    "DataSourceType": "Blob Storage",
+    "BlobStorageProperties": {
+        "StorageAccounts": [
+            {
+                "AccountName": "lm0830",
+                "AccountKey": null
+            }
+        ],
+        "Container": "asa-avg-temp",
+        "PathPattern": "",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "HH",
+        "AuthenticationMode": "Msi",
+        "BlobWriteMode": "Append"
+    },
+    "DataSourceCredentialDomain": null,
+    "Serialization": {
+        "Type": "Json",
+        "Encoding": "UTF8",
+        "Format": "LineSeparated"
+    },
+    "MinimumRows": null,
+    "MaximumTime": null,
+    "ScriptType": "Output"
+}

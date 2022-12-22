@@ -1,0 +1,47 @@
+SELECT
+    PartitionId,
+    Max(Temperature) AS MaxTemperature,
+    MIN(Temperature) AS MinTemperature,
+    AVG(Temperature) AS AvgTemperature
+
+INTO
+    [asa-temperature]
+FROM
+    [asa-in-lmuras]
+GROUP BY
+    PartitionId,
+    TumblingWindow(minute,5);
+
+SELECT
+    WorkorderId,
+    Max(GoodCount) AS SumOfGoodCount,
+    Max(BadCount) AS SumOfBadCount
+INTO
+    [asa-lmuras-good]
+FROM
+    [asa-in-lmuras]
+GROUP BY
+    WorkorderId,
+    TumblingWindow(hour,5);
+
+SELECT
+    WorkorderId,
+    (Max(GoodCount) / (Max(BadCount) + Max(GoodCount))) *100 as "Percentage %"
+INTO
+    [asa-count-perc]
+FROM
+    [asa-in-lmuras]
+GROUP BY
+    WorkorderId,
+    TumblingWindow(minute,15);
+
+SELECT
+    PartitionId,
+    (Max(GoodCount) / (Max(BadCount) + Max(GoodCount))) *100 as "Percentage %"
+INTO
+    [asa-good-perc-permach]
+FROM
+    [asa-in-lmuras]
+GROUP BY
+    PartitionId,
+    TumblingWindow(minute,15);

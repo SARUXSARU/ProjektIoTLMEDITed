@@ -1,0 +1,4 @@
+IotHub Primary Key:
+HostName=IOT-HUBzzzz.azure-devices.net;DeviceId=22.10.13;SharedAccessKey=e5U+h/asb5j23T3fGB0SwsWu2pwWkULCS8NEv4ymCpo=
+Device Smiulator server:
+opc.tcp://localhost:4840/

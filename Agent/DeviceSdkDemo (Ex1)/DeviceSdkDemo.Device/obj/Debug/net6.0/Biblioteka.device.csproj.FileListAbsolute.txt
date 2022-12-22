@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\Biblioteka.device.deps.json
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\Biblioteka.device.dll
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\Biblioteka.device.pdb
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.AssemblyInfo.cs
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.dll
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\refint\Biblioteka.device.dll
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\Biblioteka.device.pdb
+C:\Users\user\Desktop\ProjektIOTT\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\ref\Biblioteka.device.dll
